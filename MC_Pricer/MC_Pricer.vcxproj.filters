@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Options Vanilles">
+      <UniqueIdentifier>{31455c3c-8ed4-4e9c-a17e-d0c61b79252d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface PayOff">
+      <UniqueIdentifier>{8fdf30aa-fd5d-4916-a76d-6100a47e350b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Options vanilles">
+      <UniqueIdentifier>{8ce18dd7-8a85-4296-bc4f-92504dc1eea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Options vanilles\Les PayOffs Vanilles">
+      <UniqueIdentifier>{8dbb849e-e188-4e9d-8aa0-326508e640b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\les PayOffs">
+      <UniqueIdentifier>{00a94130-9ea8-4e4c-a572-a0de3017d2bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Option PathDependent">
+      <UniqueIdentifier>{06c41677-35d4-466c-8bf9-801e54d981f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Options Pathdependent">
+      <UniqueIdentifier>{d7dca6b2-0bea-412d-bd91-c30d99b11945}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GenerateurAlea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PayOffCall.h">
+      <Filter>Header Files\les PayOffs</Filter>
+    </ClInclude>
+    <ClInclude Include="PayOffPut.h">
+      <Filter>Header Files\les PayOffs</Filter>
+    </ClInclude>
+    <ClInclude Include="PayOff.h">
+      <Filter>Header Files\Interface PayOff</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionVanille.h">
+      <Filter>Header Files\Options Vanilles</Filter>
+    </ClInclude>
+    <ClInclude Include="MonteCarloVanille.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenVecteurAleatoire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionPathDependent.h">
+      <Filter>Header Files\Option PathDependent</Filter>
+    </ClInclude>
+    <ClInclude Include="MonteCarloPathDependent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateurAlea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PayOffCall.cpp">
+      <Filter>Source Files\Options vanilles\Les PayOffs Vanilles</Filter>
+    </ClCompile>
+    <ClCompile Include="PayOffPut.cpp">
+      <Filter>Source Files\Options vanilles\Les PayOffs Vanilles</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionVanille.cpp">
+      <Filter>Source Files\Options vanilles</Filter>
+    </ClCompile>
+    <ClCompile Include="GenVecteurAleatoire.cpp">
+      <Filter>Source Files\Options Pathdependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MonteCarloVanille.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionPathDependent.cpp">
+      <Filter>Source Files\Options Pathdependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MonteCarloPathDependent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,42 @@
+﻿Build started 18/02/2014 19:39:28.
+     1>Project "\\paradis\eleves\SBERRADA.SOUNI\Visual Studio 2010\Projects\MC_Pricer V3\MC_Pricer\MC_Pricer\MC_Pricer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\MC_Pricer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MC_Pricer.exe.embed.manifest.res" Debug\MC_Pricer_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\paradis\eleves\SBERRADA.SOUNI\Visual Studio 2010\Projects\MC_Pricer V3\MC_Pricer\Debug\MC_Pricer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MC_Pricer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\paradis\eleves\SBERRADA.SOUNI\Visual Studio 2010\Projects\MC_Pricer V3\MC_Pricer\Debug\MC_Pricer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\paradis\eleves\SBERRADA.SOUNI\Visual Studio 2010\Projects\MC_Pricer V3\MC_Pricer\Debug\MC_Pricer.lib" /MACHINE:X86 Debug\MC_Pricer.exe.embed.manifest.res
+         Debug\GenVecteurAleatoire.obj
+         Debug\MonteCarloPathDependent.obj
+         Debug\OptionPathDependent.obj
+         Debug\PayOffCall.obj
+         Debug\Main.obj
+         Debug\OptionVanille.obj
+         Debug\PayOffPut.obj
+         Debug\GenerateurAlea.obj
+         Debug\MonteCarloVanille.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MC_Pricer.exe.embed.manifest" /manifest Debug\MC_Pricer.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MC_Pricer.exe.embed.manifest.res" Debug\MC_Pricer_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\paradis\eleves\SBERRADA.SOUNI\Visual Studio 2010\Projects\MC_Pricer V3\MC_Pricer\Debug\MC_Pricer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MC_Pricer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\paradis\eleves\SBERRADA.SOUNI\Visual Studio 2010\Projects\MC_Pricer V3\MC_Pricer\Debug\MC_Pricer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\paradis\eleves\SBERRADA.SOUNI\Visual Studio 2010\Projects\MC_Pricer V3\MC_Pricer\Debug\MC_Pricer.lib" /MACHINE:X86 Debug\MC_Pricer.exe.embed.manifest.res
+         Debug\GenVecteurAleatoire.obj
+         Debug\MonteCarloPathDependent.obj
+         Debug\OptionPathDependent.obj
+         Debug\PayOffCall.obj
+         Debug\Main.obj
+         Debug\OptionVanille.obj
+         Debug\PayOffPut.obj
+         Debug\GenerateurAlea.obj
+         Debug\MonteCarloVanille.obj
+         MC_Pricer.vcxproj -> \\paradis\eleves\SBERRADA.SOUNI\Visual Studio 2010\Projects\MC_Pricer V3\MC_Pricer\Debug\MC_Pricer.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\MC_Pricer.unsuccessfulbuild".
+         Touching "Debug\MC_Pricer.lastbuildstate".
+     1>Done Building Project "\\paradis\eleves\SBERRADA.SOUNI\Visual Studio 2010\Projects\MC_Pricer V3\MC_Pricer\MC_Pricer\MC_Pricer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.03
